@@ -18,8 +18,10 @@ If you go through the second edtion of the text, the code will not match up as d
 
 As you go through the project not the difference between what the player sees as the game and how the code manages the internals of the game state. The physical layout of the cards are critical to the gameplay, but a completely different set of datastructures handle the process of determining what is free after a card is played and should be flipped to face up.
 
-## Solitaire Card Game
+## Solitaire Card Game (OtherGame Folder in Assets)
 One of the goals Gibson-Bond had in structuring the project in this way was that other card games could be built on top of the framework of the existing cards/Deck mechanism.
+
+We will be setting up a new namespace for this game so that you will not need to undo any of the work you do for Prospector solitaire.
 
 You are going to be choosing to build a solitaire card game from one of the following:
 - Pyramid Solitaire
@@ -28,3 +30,7 @@ You are going to be choosing to build a solitaire card game from one of the foll
 - Baker's Dozen
 - Clock Solitaire
 
+# Deliverable
+At the end of this module we will have a UI scene that allows the player to choose the between Prospector Solitaire and the game you chose to implement.
+
+End of game should drive the player back to the menu to choose to restart.
